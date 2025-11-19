@@ -14,113 +14,189 @@
     <header>
         <nav>
             <div class="logo">
-                <span class="initials">jl</span>
+                <span class="initials" style="font-family:'Libre Baskerville',serif;font-size:20px;font-weight:600">jl</span>
             </div>
                 <div class="nav-links">
-                    <a href="projects.html" class="active">work</a>
-                    <a href="hobbies.html">hobbies</a>
-                    <a href="index.html">about*</a>
-                    <a href="#resume">resume</a>
-                    <a href="https://www.linkedin.com/in/jocelyn-liu-a1a6a5241/" class="linkedin-icon">in</a>
-                </div>
+                    <a href="index.html">home</a>
+                    <a href="projects.html" class="active">menu</a>
+                    <a href="hobbies.html">contact</a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section class="work-hero">
-            <div class="work-hero-content">
-                <h1>my work</h1>
-                <p>exploring the intersection of strategy, creativity, and data-driven insights</p>
-            </div>
-        </section>
+        <div class="intro">
+            <h1 style="font-family:Libre Baskerville,serif; font-size: 50px;">menu</h1>
+            <p style="margin-bottom: 25px; ">click on "order this" to learn more about my involvements 🍵</p>
+        </div>
+       
 
-        <section class="projects-grid">
-            <div class="project-card">
+<section class="projects-grid">
+    <div class="project-card flip" aria-live="polite">
+        <div class="flip-inner">
+    <!-- FRONT -->
+            <div class="face face-front">
                 <div class="project-image">
-                    <img src="credo.png" alt="Strategy consulting project">
+                    <img src="credo.png" alt="Credo Systems project cover">
                 </div>
-                <div class="project-content">
-                    <h3>Credo Semiconductor</h3>
-                    <p class="project-type">Management Information System Engineer</p>
-                    <p>Redesigned product data management system accessed by 80+ employees.  </p>
-                    <div class="project-tags">
-                        <span class="tag">UI/UX</span>
-                       
-                        <span class="tag">Analysis</span>
-                    </div>
-                </div>
-            </div>
 
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop" alt="Marketing analysis project">
+            <div class="project-content">
+                <h3>Credo Semiconductor</h3>
+                <p class="project-type">Management Information System Engineer</p>
+                <div class="project-tags">
+                    <span class="tag">UI/UX</span>
+                    <span class="tag">Analysis</span>
                 </div>
-                <div class="project-content">
-                    <h3>ImagiCAL Marketing Analysis</h3>
-                    <p class="project-type">Strategy Director</p>
-                    <p>Conduct in-depth marketing analysis for NFL, identifying key insights to develop strategic recommendations. </p>
-                    <div class="project-tags">
-                        <span class="tag">Marketing</span>
-                        <span class="tag">Research</span>
-                        <span class="tag">Strategy</span>
-                    </div>
-                </div>
-            </div>
 
-            <div class="project-card">
+        <!-- flip trigger -->
+        <button class="order-btn flip-toggle"
+                aria-expanded="false"
+                aria-controls="credo-back">
+           order this
+        </button>
+      </div>
+    </div>
+
+    <!-- BACK (detail view) -->
+    <div class="face face-back" id="credo-back" tabindex="-1">
+      <div class="back-body">
+        <ul>
+          <p>Credo is a semiconductor company specializing in high-speed connectivity solutions. </p><br>
+          <p>I designed and rebuilt their current product data management system from scratch using Figma, HTML, CSS and JS. I collaborated closely with the Operations department to gather feedback, understand workflow needs, and refine system features. </p>
+        </ul>
+
+        <div class="back-actions">
+          <button class="ghost-btn flip-toggle" aria-controls="credo-back">back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-card flip" aria-live="polite">
+        <div class="flip-inner">
+    <!-- FRONT -->
+            <div class="face face-front">
                 <div class="project-image">
-                    <img src="sodoi2.png" alt="Coffee and baking project">
+                    <img src="imagiCAL.png" alt="ImagiCAL">
                 </div>
-                <div class="project-content">
-                    <h3>Sodoi Coffee Tasting House</h3>
-                    <p class="project-type">Barista and Social Media Manager</p>
-                    <p>Research business analytics to create unique marketing approaches.</p>
-                    <div class="project-tags">
-                        <span class="tag">Marketing</span>
-                        <span class="tag">Photography</span>
-                        
-                    </div>
+
+            <div class="project-content">
+                <h3>ImagiCAL</h3>
+                <p class="project-type">Strategy Director</p>
+                <div class="project-tags">
+                    <span class="tag">Marketing</span>
+                    <span class="tag">Research</span>
+                    <span class="tag">Strategy</span>
                 </div>
-            </div>
+
+        <!-- flip trigger -->
+        <button class="order-btn flip-toggle"
+                aria-expanded="false"
+                aria-controls="credo-back">
+           order this
+        </button>
+      </div>
+    </div>
+
+    <!-- BACK (detail view) -->
+    <div class="face face-back" id="credo-back" tabindex="-1">
+      <div class="back-body">
+        <ul>
+          <p>ImagiCal is UC Berkeley's student-run creative marketing and strategy agency, where students collaborate to build advertising campaigns for real clients using research, strategy, and creative execution. </p><br>
+          <p>As the strategy director, I lead an 8 member team through consumer research and audience segmentation to guide our annual national advertising campaign. I create weekly slide decks through Powerpoint to facilitate weekly discussions that synthesize survey data and cultural trends.  </p>
+        </ul>
+
+        <div class="back-actions">
+          <button class="ghost-btn flip-toggle" aria-controls="credo-back">back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-card flip" aria-live="polite">
+        <div class="flip-inner">
+    <!-- FRONT -->
+            <div class="face face-front">
+                <div class="project-image">
+                    <img src="ihs2.jpg" alt="Counseling">
+                </div>
+
+            <div class="project-content">
+                <h3>Academic Peer Counseling Club</h3>
+                <p class="project-type">Events Coordinator</p>
+                <div class="project-tags">
+                    <span class="tag">Psychology</span>
+                    <span class="tag">Marketing</span>
+                </div>
+
+        <!-- flip trigger -->
+        <button class="order-btn flip-toggle"
+                aria-expanded="false"
+                aria-controls="credo-back">
+           order this
+        </button>
+      </div>
+    </div>
+
+    <!-- BACK (detail view) -->
+    <div class="face face-back" id="credo-back" tabindex="-1">
+      <div class="back-body">
+        <ul>
+          <p>The Academic Peer Counseling club is a student organization dedicated to destigmatizing mental health, supporting academic success, and guiding new and transfer students.</p><br>
+          <p>As the Events Coordinator, I created initiatives that strengthened our campus community. I launched our "Random Acts of Kindness" program, which continues today as a signature tradition to promoting positivity and kindness. Additionally, I produced Instagram videos that reached over 2,000 views, helping increase visibility for the club. </p>
+        </ul>
+
+        <div class="back-actions">
+          <button class="ghost-btn flip-toggle" aria-controls="credo-back">back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        
+
+            
 
             
             </section>
 
-            <section class="contact-section">
-                <div class="contact-content">
-                    <h2>Contact Me.</h2>
-                    <p>Open to internships, research, or collaboration — let's connect!</p>
-                    
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <span class="contact-label">Email:</span>
-                            <span class="contact-value">jocelynliu@berkeley.edu</span>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-label">Phone:</span>
-                            <span class="contact-value">(650) 814-8866</span>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-label">GitHub:</span>
-                            <span class="contact-value">github.com/jocelyn-liu</span>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-label">LinkedIn:</span>
-                            <span class="contact-value">linkedin.com/in/jocelyn-liu</span>
-                        </div>
-                    </div>
-                    
-                    <div class="social-icons">
-                        <a href="mailto:jocelynliu@berkeley.edu" class="social-icon email-icon">@</a>
-                        <a href="https://linkedin.com/in/jocelyn-liu" class="social-icon linkedin-icon">in</a>
-                        <a href="https://github.com/jocelyn-liu" class="social-icon github-icon">gh</a>
-                    </div>
-                </div>
-            </section>
+          
         </main>
 
         <footer>
             <p>designed and coded with ♥ by me</p>
         </footer>
 </body>
+<script>
+document.addEventListener('click', (e) => {
+  const btn = e.target.closest('.flip-toggle');
+  if (!btn) return;
+
+  // stop <a href="#"> from scrolling to top
+  if (btn.tagName === 'A') e.preventDefault();
+
+  const card = btn.closest('.project-card.flip');
+  if (!card) return;
+
+  const wasExpanded = btn.getAttribute('aria-expanded') === 'true';
+  card.classList.toggle('is-flipped');
+
+  // sync all toggles in this card
+  card.querySelectorAll('.flip-toggle').forEach(b =>
+    b.setAttribute('aria-expanded', (!wasExpanded).toString())
+  );
+
+  // focus management for accessibility
+  const back = card.querySelector('.face-back');
+  setTimeout(() => {
+    if (!wasExpanded) back?.focus();
+    else card.querySelector('.flip-toggle')?.focus();
+  }, 350);
+});
+</script>
+
 </html>

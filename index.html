@@ -14,159 +14,73 @@
     <header>
         <nav>
             <div class="logo">
-                <span class="initials">jl</span>
+                <span class="initials" style="font-family:'Libre Baskerville',serif;font-size:20px;font-weight:600">jl</span>
             </div>
                 <div class="nav-links">
-                    <a href="projects.html">work</a>
-                    <a href="hobbies.html">hobbies</a>
-                    <a href="index.html" class="active">about</a>
-                    <a href="resume.pdf">resume</a>
-                    <a href="https://linkedin.com" class="linkedin-icon">in</a>
-                </div>
+                    <a href="index.html" class="active">home</a>
+                    <a href="projects.html">menu</a>
+                    <a href="hobbies.html">contact</a>                </div>
         </nav>
     </header>
 
     <main>
-        <section class="hero-section">
-            <div class="hero-content">
-                <div class="profile-section">
-                    <div class="profile-image-container">
-                        <img src="portrait.JPG" alt="Jocelyn Liu" class="profile-img">
-                    </div>
-                </div>
-                <div class="intro-section">
-                    <h1>who am i?</h1>
-                    <p>I'm Jocelyn, a Cognitive Science and Psychology student at UC Berkeley with a passion for strategy consulting, marketing, and creative content. As a self-declared coffee enthusiast, marathon runner, and budding designer / developer, I'm constantly looking for new ways to spark curiosity. I love to innovate at the intersection of technology and creativity, and am particularly intrigued by the lenses of social good and personal growth.</p>
-                </div>
+        <div class="intro">
+            <h1 style="font-family:Libre Baskerville,serif; font-size: 50px;">hi! i'm jocelyn liu</h1>
+        </div>
+        <div class="sub-intro">
+            <h3>welcome to my cafe ☕ </h3>
+            <p>where i combine creative strategy with psychology and design</p>
+        </div>
+        
+        <div class="profile-container">
+            <img class="profile-img" src="portrait.JPG" alt="Jocelyn">
+            <div class="about-section">
+                <h3 class="about-me-title">about me</h3>
+                <div class="about-body">
+                    <p style="text-align: left"> Born and raised in the Bay Area, I'm currently a student at UC Berkeley studying cognitive science and psychology. </p><br>
+                    <p style="text-align: left">I love using creativity as a way to storytell, transforming ideas into experiences that connect people. Whether I am leading strategy sessions at ImagiCAL or designing digital experiences, I am passionate about weaving empathy and insight into strategies and designs that resonate.</p><br>
+                    <p style="text-align:left">Outside student life, I enjoy de-stressing through exploring new cafes, running half marathons, and baking with friends.   </p>
+                </div>     
+                <a href="projects.html" class="cta-menu">explore the menu! </a>
+ 
+            </div>
+        </div><br><br>
+        <section class="carousel-wrap">
+            <div class="carousel-overlay">current favorite cafes </div>
+
+            <div class="carousel-track">
+                <img src="cafe1.png" alt="">
+                <img src="cafe2.png" alt="">
+                <img src="cafe3.png" alt="">
+                <img src="cafe4.png" alt="">
+                <img src="cafe5.png" alt="">
+                <!-- duplicate set for smooth loop -->
+                <img src="cafe1.png" alt="">
+                <img src="cafe2.png" alt="">
+                <img src="cafe3.png" alt="">
+                <img src="cafe4.png" alt="">
+                <img src="cafe5.png" alt="">
             </div>
         </section>
 
-        <section class="gallery-section">
-            <div class="gallery-content">
-                <h2>glimpses of my life in motion picture</h2>
-                <p>there's something about capturing epic moments in motion picture that you simply cannot replicate in a photograph. click a tile to press play :-)</p>
-                
-                <div class="carousel-container">
-                    <div class="carousel">
-                        <div class="carousel-slide active">
-                            <div class="slide-content">
-                                <div class="slide-left">
-                                    <h3>Strategy Consulting</h3>
-                                </div>
-                                <div class="slide-right">
-                                    <img src="strategy.png" alt="Strategy workspace">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="slide-content">
-                                <div class="slide-left">
-                                    <h3>Creative Content</h3>
-                                </div>
-                                <div class="slide-right">
-                                    <img src="creative.png" alt="Creative workspace">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="slide-content">
-                                <div class="slide-left">
-                                    <h3>Marathon Running</h3>
-                                </div>
-                                <div class="slide-right">
-                                    <img src="m.png" alt="Marathon running">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="slide-content">
-                                <div class="slide-left">
-                                    <h3>Coffee & Baking</h3>
-                                </div>
-                                <div class="slide-right">
-                                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=400&fit=crop" alt="Coffee and baking">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-nav">
-                        <button class="carousel-btn prev" onclick="changeSlide(-1)">‹</button>
-                        <button class="carousel-btn next" onclick="changeSlide(1)">›</button>
-                    </div>
-                    <div class="carousel-dots">
-                        <span class="dot active" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                        <span class="dot" onclick="currentSlide(4)"></span>
-                    </div>
-                </div>
+        <section class="carousel-wrap">
+            <div class="carousel-overlay">more about me!</div>
+
+            <div class="carousel-track">
+                <img src="pic1.png" alt="">
+                <img src="pic2.png" alt="">
+                <img src="pic3.png" alt="">
+                <img src="pic4.png" alt="">
+                <img src="binge.JPEG">
+                <!-- duplicate set for smooth loop -->
+                <img src="pic1.png" alt="">
+                <img src="pic2.png" alt="">
+                <img src="pic3.png" alt="">
+                <img src="pic4.png" alt="">
+                <img src="binge.JPEG">
             </div>
         </section>
 
-        <section class="about-section">
-            <div class="about-content">
-                <h2>about</h2>
-                <p>I'm a UC Berkeley student studying Cognitive Science and Psychology, passionate about strategy consulting and creative problem-solving. With experience at Credo and ImagiCAL, I've worked on rebranding strategies, marketing analysis, and data-driven decision making. When I'm not working on projects, you can find me running marathons, baking, or exploring new coffee shops around Berkeley.</p>
-                
-                <div class="social-links">
-                    <a href="#" class="social-link initials">jl</a>
-                    <a href="https://linkedin.com" class="social-link linkedin">in</a>
-                    <a href="mailto:jocelynliu@berkeley.edu" class="social-link email">@</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="contact-section">
-            <div class="contact-content">
-                <h2>Contact Me.</h2>
-                <p>Open to internships, research, or collaboration — let's connect!</p>
-                
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <span class="contact-label">Email:</span>
-                        <span class="contact-value">jocelynliu@berkeley.edu</span>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-label">Phone:</span>
-                        <span class="contact-value">(650) 814-8866</span>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-label">GitHub:</span>
-                        <span class="contact-value">github.com/jocelyn-liu</span>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-label">LinkedIn:</span>
-                        <span class="contact-value">linkedin.com/in/jocelyn-liu</span>
-                    </div>
-                </div>
-                
-                <form class="contact-form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    
-                    <button type="submit">Send Message</button>
-                </form>
-                
-                <div class="social-icons">
-                    <a href="mailto:jocelynliu@berkeley.edu" class="social-icon email-icon">@</a>
-                    <a href="https://linkedin.com/in/jocelyn-liu" class="social-icon linkedin-icon">in</a>
-                    <a href="https://github.com/jocelyn-liu" class="social-icon github-icon">gh</a>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer>

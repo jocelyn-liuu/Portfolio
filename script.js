@@ -32,7 +32,7 @@ function currentSlide(index) {
     showSlide(currentSlideIndex);
 }
 
-// Auto-advance slides every 5 seconds
+// advance slides every 5 seconds
 let autoSlideInterval = setInterval(() => {
     changeSlide(1);
 }, 5000);
